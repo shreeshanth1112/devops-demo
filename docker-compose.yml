@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: yourdockerhubuser/devops-demo:latest
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
